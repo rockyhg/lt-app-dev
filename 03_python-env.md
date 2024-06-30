@@ -24,3 +24,5 @@
 皆さんの参加をお待ちしています！
 
 [▲TOP PAGE](./README.md)
+
+@rockyhg (Hiroki Haga)
