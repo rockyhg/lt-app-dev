@@ -13,4 +13,4 @@
 ## [3. 【告知】Python環境構築について](./03_python-env.md)
 - 環境構築でのつまずきを解消し、スムーズにアプリ開発に入れるように、ハンズオン講義を行います！ご参加ください。
 
-@rockyhg (Hiroki Haga)
+2024@rockyhg (Hiroki Haga)
