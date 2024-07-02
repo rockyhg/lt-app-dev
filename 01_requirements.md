@@ -1,6 +1,6 @@
 # 1. 要件の詳細
 
-## 要件を確認しよう
+## 要件を確認しましょう
 - 自身の課題設定をもとに一連の開発を実践する:
   1. データの収集と前処理
   2. モデルの学習
@@ -14,36 +14,39 @@
 
 - 外部で作成された API (例: OpenAI API etc.) を利用するだけではNG
 
-## 要件達成に必要なタスク
-### データ収集
+## 要件達成に必要な技術要素
+### データ収集【必須】
 - 自分で撮影
 - 公開データを利用
-- スクレイピング※
+- スクレイピング
 - アノテーション（ラベル付）
 
-### 機械学習モデル作成
-- Colabでnotebookを実行
+### 機械学習モデル作成【必須】
+- Google Colabなどでnotebookを実行
 - 学習済みモデルをファイル保存
 
-[figure]()
-
-### FastAPIの実装
+### FastAPIの実装【必須】
 - 学習済みモデルを読み込み、推論のみ行う
+- ここまでで要件クリア！
 
-[figure]()
+![01_FastAPI](./images/01_FastAPI.svg)
 
-### フロントエンドの実装
+### フロントエンドの実装【ステップアップ】
 - APIだけでは物足りないので、ほとんどの方はフロントエンドまで作成します
 - Streamlit（おすすめ）
 - FastAPIとの接続
-  - requests.psot
+  - `requests.psot()`
 
-[figure]()
+![02_Streamlit](./images/02_Streamlit.svg)
 
-### デプロイ（Web上に公開して他ユーザーも使えるようにすること）
+### デプロイ【ステップアップ】
+Web上に公開して他ユーザーも使えるようにすること。
+
+デプロイ先の例:
 - Streamlit Cloud
-- Render
+- Render etc.
 
+![03_Deployment](./images/03_Deployment.svg)
 
 [▲TOP PAGE](./README.md)
 
