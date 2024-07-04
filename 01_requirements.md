@@ -1,6 +1,6 @@
 # 修了要件の詳細
 
-## 要件を確認しよう
+## 開発のステップと要件を確認
 - 自身の課題設定をもとに一連の開発を実践する:
   1. データの収集と前処理
   2. モデルの学習
@@ -13,9 +13,9 @@
 
 ## 要件達成に必要な技術要素
 ### 1. データ収集・前処理【必須】
-- 自分で撮影
+- 自分で作成（撮影）
 - 公開データを利用
-- スクレイピング
+- スクレイピング（例: [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)）
 - アノテーション（ラベル付け）
 
 ### 2. 機械学習モデル作成【必須】
@@ -30,7 +30,7 @@
 
 ### 4. フロントエンドの実装【ステップアップ】
 - APIだけでは物足りないので、ほとんどの方はフロントエンドまで作成します
-- Streamlitがおすすめ
+- [Streamlit](https://streamlit.io/) がおすすめ
 - FastAPIとの接続
   - `requests.psot()`
 
@@ -39,9 +39,9 @@
 ### 5. デプロイ【ステップアップ】
 Web上に公開して他ユーザーも使えるようにすること。
 
-デプロイ先の例:
-- Streamlit Cloud
-- Render etc.
+無料で使えるデプロイ先の例:
+- [Streamlit Cloud](https://streamlit.io/cloud)
+- [Render](https://render.com/)
 
 ![03_Deployment](./images/03_Deployment.svg)
 
