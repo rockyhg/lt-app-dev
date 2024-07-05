@@ -43,7 +43,7 @@ Web上に公開して他ユーザーも使えるようにすること。
 - [Streamlit Cloud](https://streamlit.io/cloud)
 - [Render](https://render.com/)
 
-![03_Deployment](./images/03_Deployment.svg)
+![03_Deployment](./images/03_Deployment2.svg)
 
 [▲TOP PAGE](./README.md)
 
